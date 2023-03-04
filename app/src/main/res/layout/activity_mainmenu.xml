@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainmenu">
+
+    <TextView
+        android:id="@+id/Menutext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cricket app"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/btnprofile"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="263dp"
+        android:layout_marginBottom="455dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="jumpprofile"
+        android:text="My Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Menutext" />
+
+
+    <Button
+        android:id="@+id/btnranking"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="349dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="jumpranking"
+        android:text="Rankings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btncricinfo"
+        app:layout_constraintTop_toBottomOf="@+id/btnplayers"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnplayers"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="451dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="jumpplayer"
+        android:text="All Profiles"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnprofile"
+        app:layout_constraintTop_toBottomOf="@+id/Menutext" />
+
+    <Button
+        android:id="@+id/btncricinfo"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="349dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="jumpcricinfo"
+        android:text="Cric info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnprofile" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

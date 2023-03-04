@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Cricket App</string>
+    <string name="heading_one">Make Cricket Profile</string>
+    <string name="heading_two">See other\'s Cricket Profiles</string>
+    <string name="heading_three">Get Cricket Info and Live Score</string>
+    <string name="heading_fourth">See Rankings</string>
+    <string name="wide_ball">Wide Ball</string>
+    <string name="no_ball">No Ball</string>
+    <string name="_2">2 Runs</string>
+    <string name="_6">Sixer 6</string>
+    <string name="_3">3 Runs</string>
+    <string name="_1">1 Runs</string>
+    <string name="_4">Boundary 4</string>
+    <string name="score">Score</string>
+    <string name="total_runs">Total Runs</string>
+    <string name="_0">0</string>
+    <string name="wickets">Wickets</string>
+    <string name="balls">Balls</string>
+
+    <string-array name="career">
+        <item>Quaid-e-Azam Trophy (First Class)</item>
+        <item> Pakistan Cup (List A)</item>
+        <item>National T20 Cup (T20)</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>
